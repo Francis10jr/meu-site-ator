@@ -36,7 +36,7 @@ header#cabecalho h1 {
     text-shadow: 1px 1px 1px rgba(0, 0,0,.6);
 }   
 img#icone {
-    margin-top: 200px;
+    margin-top: 220px;
 } 
 nav#menu {
     display: block;
@@ -190,18 +190,16 @@ button#enviar{
     margin-top: 5px;
 }
 @media screen and (max-width:900px){
-    header#cabecalho{
-        display: none;
-    }
     img#icone{
         display: none;
     }
-}
-    p#minibio{
-        font-size: clamp(1.75em, 1em+ 3vw, 2.5);
-    }
-    p#marca{
-        display: flex;
-        margin: auto;
-    }
+   ul#nav {
+    display: none;
+   }
+   p#minibio{
+    display: flex;
+    column-count: clamp(1.75em, 1em +3vw, 2.5em);
+   }
+    
+
     
